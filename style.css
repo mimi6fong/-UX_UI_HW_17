@@ -10,36 +10,45 @@
      justify-content: space-between;
      padding: 15px;
      margin:auto;
+     align-items: center;
  
  }
  .nav img {
      height:100px;
      width:150px;
  }
- .heroImage {
-     background-position: center;
-     justify-content: center;
-     background-repeat: no-repeat;
-     display: flex;
-     height:800px;
-     width:1350px;
-     position: relative;
- 
+
+ .div {
+    background-image: url(../-UX_UI_HW_17/images/texas4000hero.png);
+    padding: 5px;
+    height:500px;
+    
+
  }
+
  .h1 {
-     font-family: 'Merriweather', serif;
-     color: white;
-     position:absolute;
-     
-     
+    text-align: left;
+    color: white;
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+    position: absolute;
+    top: 240px; left: 140px;
+    
+
+
  }
- 
+
  .p {
-     font-family: 'Montserrat', sans-serif;
-     color: white;
-     position:absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 15px;
+    width: 540px;
+    height:100px;
+    position: absolute;
+    top: 360px; left: 140px;
+
  }
- 
+
  .button {
      font-family: 'Montserrat', sans-serif;
      font-weight: bold;
@@ -53,6 +62,7 @@
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
  }
 
  .footer{ 
@@ -63,5 +73,9 @@
     width: 350px;
     height: 100px;
 
+ }
+ .route {
+    position: absolute;
+    top: 1130px; left: 800px;
  }
  
